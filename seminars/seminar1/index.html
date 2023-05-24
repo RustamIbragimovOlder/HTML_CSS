@@ -1,0 +1,65 @@
+<!-- 
+1. Создать первую html страницу.
+Добавить структуру html документа.
+Создать заголовок h1 с текстом “Моя первая html страница”.
+Добавить параграф p с произвольным текстом (lorem) (используем расширение emmet уже установленное в vsc, для этого вводим lorem и нажимаем клавишу tab).
+Создать подзаголовок h2 с текстом “Заголовок 2 уровня”.
+Добавить три параграфа p с произвольным текстом (lorem).
+Запустить в браузере, проверить работу программы.
+2. Рядом с файлом index.html создать папку info.
+Внутри папки info создать файл about.html.
+На странице index.html перед заголовком h1 добавить две ссылки
+Главная
+Обо мне
+На странице "Обо мне" добавить структуру html документа.
+Добавить меню сайта (Главная Обо мне).
+Добавить заголовок h1 с текстом "Обо мне".
+Создать параграф с произвольным текстом из 150 слов.
+Сделать переходы с главной страницы на страницу Обо мне и обратно.
+3. Создать папку img и разместить ее рядом с index.html.
+Добавить в папку img ваше фото (или другое).
+На странице "Обо мне" после заголовка h1 добавить тег <img> с изображением.
+На главной странице, в нижней части сайта (под тремя параграфами) создать 2 ссылки на произвольные соцсети.
+Внутри этих ссылок разместить изображения соцсетей.
+Выставить значение ширины изображения в 30рх
+4. Создать новую страницу.
+Добавить структуру html документа.
+Добавить меню сайта (Оставить заявку)
+Добавить заголовок h1 с текстом "Оставить заявку".
+Создать форму, состоящую из полей:
+Имя
+Почта
+Кнопки отправить и стереть
+Добавить placeholder Введите Ваше имя, Введите адрес почты
+Проверить работу 
+-->
+
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+</head>
+
+<body>
+    <a href="index.html">Главная</a>
+    <a href="info/about.html">Обо мне</a>
+    <a href="application.html">Оставить заявку</a>
+    <h1>Моя первая html страница</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, eum!</p>
+    <h2>Заголовок 2 уровня</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum atque velit eligendi expedita, exercitationem
+        hic!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat provident cum deleniti ipsum inventore assumenda
+        minus, aliquid eos vitae tenetur?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea esse, inventore a quia et nesciunt expedita sint
+        voluptates voluptatum sed corporis maiores voluptas vitae deleniti quisquam ducimus, deserunt quas mollitia.</p>
+    <a href="https://vk.com" target="_blank"><img width="30" src="img/vk.svg" alt="vk">В контакте</a>
+    <a href="https://ok.ru" target="_blank"><img width="30" src="img/odnoklassniki.svg" alt="vk">Одноклассники</a>
+</body>
+
+</html>
