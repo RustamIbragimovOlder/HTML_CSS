@@ -3,11 +3,16 @@ a {
 }
 
 .nav_link {
-    color: cornflowerblue;font-size: 16px;line-height: 20px;
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .title {
-    color: #222222;font-size: 28px;line-height: 36px;font-weight: bold;
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
 }
 
 .text {
