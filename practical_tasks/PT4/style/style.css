@@ -28,7 +28,7 @@
 	url('../fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 
-body {
+.top {
     background-color: #FFFFFF;
 }
 
