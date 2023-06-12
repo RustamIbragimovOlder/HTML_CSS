@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    /* width: 1200px; */
+    /* width: 75%; */
+    /* max-width: 1200px; */
+    /* height: 200px; */
+    /* min-height: 200px; */
+    /* min-height: 100vh; */
+    border: 1px solid #000;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    flex-wrap: wrap;
+}
+
+.item {
+    /* max-width: 250px; */
+    /* min-width: 250px; */
+    /* width: 250px; */
+    /* width: 33.333333%; */
+    width: 33vw;
+    /* min-height: 250px; */
+    /* height: 250px; */
+    /* height: 50vh; */
+    height: 50vh;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    box-sizing: border-box;
+    border: 0.5px solid #000;
+}
+
+@media (max-width: 1024px) {
+    /* стили для планшета */
+    h1 {
+        font-size: 24px;
+    }
+
+    .item {
+        background-color: orange;
+        width: 50vw;
+        height: 250px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* стили для мобильного устройства */
+    h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .item {
+        width: 100vw;
+        height: 150px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        padding: 32px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* только для планшетов */
+    h1 {
+        text-decoration: underline;
+    }
+}
