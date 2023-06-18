@@ -1,0 +1,34 @@
+.header, .footer {
+    height: 150px;
+    background-color: #ccc;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    width: 200px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    background-color: darkmagenta;
+    color: aliceblue;
+    text-align: center;
+    line-height: 40px;
+}

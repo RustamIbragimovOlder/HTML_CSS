@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top_header {
+    padding-top: 40px;
+}
+
+.top_header_navi {
+    padding-top: 51px;
+}
+
+.header_link {
+    text-decoration: none;
+    width: 533px;
+    height: 17px;
+}
+
+.top_content_info {
+    margin-top: 84px;
+    margin-bottom: 162px;
+}
+
+.title {
+    margin-bottom: 17px;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.text {
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+}
+
+.top_content_info_button {
+    margin-top: 37px;
+    margin-bottom: 162px;
+}
+
+.button {
+    width: 140px;
+    height: 50px;
+}
+
+.top_content_img {
+    margin-top: 84px;
+    margin-bottom: 163.1px;
+}
+
+.top_logos {
+    padding-top: 97px;
+    padding-bottom: 96px;
+}
