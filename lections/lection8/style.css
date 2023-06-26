@@ -1,0 +1,20 @@
+.bg-nav {
+    background-color: #595454;
+}
+
+.text-color {
+    color: red;
+}
+
+.center {
+    padding-right: calc(50% - 800px);
+    padding-left: calc(50% - 800px);
+}
+
+.product-box-1 {
+    gap: 24px;
+}
+
+.product-box-2 {
+    flex-wrap: wrap;
+}
