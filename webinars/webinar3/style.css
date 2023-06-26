@@ -1,0 +1,73 @@
+/* 1. Медиа функция resolution */
+div {
+    background-image: url(pic.jpg);
+    background-color: #e3e3e3;
+}
+
+/* Minimum resolution */
+@media (min-resolution: 72dpi) {
+    div {
+        background-image: none;
+    }
+}
+
+/* Maximum resolution */
+@media (min-resolution: 200dpi), (min-resolution: 1.5dppx) {
+    div {
+        background-image: url(pic@2x.jpg);
+    }
+}
+
+/* 2. Области прокрутки */
+html, body {
+    overflow-x: hidden;
+}
+
+/* ТАК ДЕЛАТЬ НЕЛЬЗЯ */
+
+/* 3. Фиксированные элементы внизу экрана */
+body {
+    min-height: 100vh;
+
+    /* mobile viewport bug fix */
+    min-height: -webkit-fill-available;
+}
+
+html {
+    height: -webkit-fill-available;
+}
+
+/* 4. Правило @font-face
+Указывается в style.css в самом начале файла
+Может быть в любом количестве
+Каждое начертание - новое правило */
+@font-face {
+    font-family: 'Butler';
+    src: url('../fonts/butler/Butler.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Пример: */
+@font-face {
+    font-family: 'Butler';
+    src: local('Butler UltraLight'), local('Butler-UltraLight'), url(../fonts/butler/Butlerultralight.woff2) format('woff2'), url(../fonts/butler/Butlerultralight.woff) format('woff'), url(../fonts/butler/Butlerultralight.ttf) format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: local('Butler Light'), local('Butler-Light'), url(../fonts/butler/Butlerlight.woff2) format('woff2'), url(../fonts/butler/Butlerlight.woff) format('woff'), url(../fonts/butler/Butlerlight.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: local('Butler'), url(../fonts/butler/Butler.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 5. Вариативные шрифты Variable fonts на замену правила @font-face (все разные font-weight в одном файле). Смотрите сами */
